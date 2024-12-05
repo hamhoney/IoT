@@ -28,6 +28,8 @@ class _BluetoothConnectScreenState extends State<BluetoothConnectScreen> {
   void initState() {
     super.initState();
     Log.v('initState..');
+    connectMessage = connectMsgOff;
+
     adapterStateSubscription = FlutterBluePlus.adapterState.listen((BluetoothAdapterState state) {
       adapterState = state;
       Log.s('BluetootAdapterState Subscription state:$state');
