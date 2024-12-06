@@ -1,8 +1,11 @@
 import 'package:bluetooth_demo1/screens/bluetooth_connect_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_blue_plus/flutter_blue_plus.dart';
 import 'package:flutter_logcat/flutter_logcat.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+
   runApp(const MyApp());
 }
 

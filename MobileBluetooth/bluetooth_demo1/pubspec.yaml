@@ -38,6 +38,7 @@ dependencies:
   flutter_logcat: ^1.2.8
   flutter_blue_plus: ^1.34.5
   animations: ^2.0.11
+  loading_progressbar: ^0.1.1
 
 dev_dependencies:
   flutter_test:
