@@ -21,7 +21,6 @@ import com.google.android.material.snackbar.Snackbar
 import net.lagerstroemia.bluetoothclassic.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var appBarConfiguration: AppBarConfiguration
     private lateinit var binding: ActivityMainBinding
 
